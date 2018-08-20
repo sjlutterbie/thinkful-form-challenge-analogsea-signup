@@ -11,15 +11,13 @@ html {
 .container {
     width: 400px;
     margin: auto;
-    background-color: #eee; /* TEMP: Design aid */
 }
 
 .logo-container {
-    height: 65px;
+    height: 105px;
     width: 100%;
-    padding: 15px 40px;
-    background: rgba(255,0,0,.2); /* TEMP: Design aid */
-    min-height: 10vh; /* TEMP: Design aid */
+    padding: 40px 40px 30px 40px;
+    text-align: center;
 }
 
 .signup-form-container {
@@ -34,4 +32,11 @@ html {
     padding: 5px 40px;
     background-color: rgba(0,255,0,.2); /* TEMP: Design aid */
     min-height: 10vh; /* TEMP: Design aid */
+}
+
+/* ===LOGO=== */
+
+
+.logo-container img {
+    height: 35px;
 }
