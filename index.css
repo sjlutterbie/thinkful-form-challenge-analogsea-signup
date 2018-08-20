@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #4096e6;
+}
+
+/* ===PAGE LAYOUT CONTAINERS=== */
+
+.container {
+    width: 400px;
+    margin: auto;
+    background-color: #eee; /* TEMP: Design aid */
+}
+
+.logo-container {
+    height: 65px;
+    width: 100%;
+    padding: 15px 40px;
+    background: rgba(255,0,0,.2); /* TEMP: Design aid */
+    min-height: 10vh; /* TEMP: Design aid */
+}
+
+.signup-form-container {
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #fff;
+    min-height: 50vh; /* TEMP: Design aid */
+}
+
+.login-link-container {
+    width: 100%;
+    padding: 5px 40px;
+    background-color: rgba(0,255,0,.2); /* TEMP: Design aid */
+    min-height: 10vh; /* TEMP: Design aid */
+}
