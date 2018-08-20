@@ -61,6 +61,7 @@ input {
     border: 2px solid #ddd;
     padding: 15px;
     border-radius: 3px;
+    height: 55px;
 }
 
 input[type="password"] {
@@ -70,7 +71,6 @@ input[type="password"] {
 input[type="submit"] {
     display: block;
     margin: auto;
-    height: 55px;
     background-color: #65c26e;
     border-color: #65c26e;
     font-weight: bold;
