@@ -24,7 +24,6 @@ html {
     width: 100%;
     padding: 15px 40px;
     background-color: #fff;
-    min-height: 50vh; /* TEMP: Design aid */
 }
 
 .login-link-container {
@@ -42,7 +41,48 @@ html {
 
 /* ===SIGN UP FORM=== */
 
+.signup-form {
+    width: 100%;
+    padding-bottom: 40px;
+}
 
+h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+label {
+    display: block;
+    padding: 20px 0px;
+}
+
+input {
+    width: 320px;
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+input[type="password"] {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    height: 55px;
+    background-color: #65c26e;
+    border-color: #65c26e;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+
+    input[type="submit"]:hover, input[type="submit"]:focus {
+        background-color: #488c4f;
+        border-color: #488c4f;
+    }
+    
 
 
 /* ===LOGIN LINK=== */
