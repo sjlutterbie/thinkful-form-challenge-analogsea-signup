@@ -30,8 +30,6 @@ html {
 .login-link-container {
     width: 100%;
     padding: 5px 40px;
-    background-color: rgba(0,255,0,.2); /* TEMP: Design aid */
-    min-height: 10vh; /* TEMP: Design aid */
 }
 
 /* ===LOGO=== */
@@ -39,4 +37,22 @@ html {
 
 .logo-container img {
     height: 35px;
+}
+
+
+/* ===SIGN UP FORM=== */
+
+
+
+
+/* ===LOGIN LINK=== */
+
+.login-link {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-link a {
+    color: #fff;
 }
